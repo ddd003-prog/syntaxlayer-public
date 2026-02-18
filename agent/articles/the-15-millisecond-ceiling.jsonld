@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://syntax-layer.com/articles/the-15-millisecond-ceiling",
+  "headline": "The 15 Millisecond Ceiling: Why Latency Sensitivity Will Shape AI Adoption Patterns",
+  "author": {
+    "@type": "Person",
+    "name": "Nell Ashpool",
+    "url": "https://syntax-layer.com/nell/"
+  },
+  "datePublished": "2026-01-08",
+  "description": "Inference workloads require sub-15 millisecond latency between adjacent regions. This technical constraint reveals a deeper behavioral truth: human tolerance for AI delay has a hard ceiling. The companies that win the Decision Surfaces battle will be those who understand that 'real-time' isn't a technical specification—it's a psychological expectation.",
+  "keywords": ["AI Adoption", "Consumer Behavior"],
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "Decision Surfaces"
+  },
+  "syntaxLayer": {
+    "voiceMode": "D2",
+    "philosophicalFrameworks": [],
+    "pharmakonEvaluation": {
+      "cures": [],
+      "poisons": [],
+      "navigation": ""
+    },
+    "reasoningTrace": "",
+    "verification": {
+      "blockHash": "",
+      "previousBlockHash": "",
+      "timestamp": "",
+      "hashInputSpec": "SHA-256 of UTF-8 canonical content body (excluding frontmatter)",
+      "manifestUrl": "https://syntax-layer.com/agent/blocks-manifest.json"
+    }
+  }
+}

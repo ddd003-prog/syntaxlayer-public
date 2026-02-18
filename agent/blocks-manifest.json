@@ -1,0 +1,47 @@
+{
+  "manifestVersion": "1.0",
+  "generator": "syntax-layer-publish-skill",
+  "schemaDoc": "https://syntax-layer.com/agent/block-schema.md",
+  "lastUpdated": "2026-02-18T00:00:00Z",
+  "blocks": [
+    {
+      "slug": "the-inference-economy",
+      "title": "The Inference Economy: Why Real-Time AI Access Becomes the New Competitive Moat",
+      "author": "Nell Ashpool",
+      "blockHash": "",
+      "previousBlockHash": "null",
+      "timestamp": "2026-01-08",
+      "humanUrl": "https://syntax-layer.com/articles/the-inference-economy/",
+      "agentUrl": "https://syntax-layer.com/agent/articles/the-inference-economy.jsonld",
+      "voiceMode": "D1",
+      "campaigns": ["Decision Surfaces"],
+      "themes": ["AI Infrastructure", "Competitive Strategy"]
+    },
+    {
+      "slug": "the-15-millisecond-ceiling",
+      "title": "The 15 Millisecond Ceiling: Why Latency Sensitivity Will Shape AI Adoption Patterns",
+      "author": "Nell Ashpool",
+      "blockHash": "",
+      "previousBlockHash": "",
+      "timestamp": "2026-01-08",
+      "humanUrl": "https://syntax-layer.com/articles/the-15-millisecond-ceiling/",
+      "agentUrl": "https://syntax-layer.com/agent/articles/the-15-millisecond-ceiling.jsonld",
+      "voiceMode": "D2",
+      "campaigns": ["Decision Surfaces"],
+      "themes": ["AI Adoption", "Consumer Behavior"]
+    },
+    {
+      "slug": "the-boring-parts-problem",
+      "title": "The Boring Parts Problem: Why Manufacturing Leaders Can't Get Excited About What Actually Works",
+      "author": "Nell Ashpool",
+      "blockHash": "",
+      "previousBlockHash": "",
+      "timestamp": "2026-01-10",
+      "humanUrl": "https://syntax-layer.com/articles/the-boring-parts-problem/",
+      "agentUrl": "https://syntax-layer.com/agent/articles/the-boring-parts-problem.jsonld",
+      "voiceMode": "D2",
+      "campaigns": [],
+      "themes": ["Adoption Dynamics", "Organizational Psychology"]
+    }
+  ]
+}

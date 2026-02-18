@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://syntax-layer.com/articles/the-boring-parts-problem",
+  "headline": "The Boring Parts Problem: Why Manufacturing Leaders Can't Get Excited About What Actually Works",
+  "author": {
+    "@type": "Person",
+    "name": "Nell Ashpool",
+    "url": "https://syntax-layer.com/nell/"
+  },
+  "datePublished": "2026-01-10",
+  "description": "COOs systematically prioritize the 'visible' AI investments—robots, automation, digital twins—while under-investing in workforce enablement, infrastructure, and cybersecurity that actually determine success. This isn't ignorance; it's psychology. The behavioral economics of organizational attention explains why 66% of manufacturers remain stuck in pilot purgatory.",
+  "keywords": ["Adoption Dynamics", "Organizational Psychology"],
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": ""
+  },
+  "syntaxLayer": {
+    "voiceMode": "D2",
+    "philosophicalFrameworks": [],
+    "pharmakonEvaluation": {
+      "cures": [],
+      "poisons": [],
+      "navigation": ""
+    },
+    "reasoningTrace": "",
+    "verification": {
+      "blockHash": "",
+      "previousBlockHash": "",
+      "timestamp": "",
+      "hashInputSpec": "SHA-256 of UTF-8 canonical content body (excluding frontmatter)",
+      "manifestUrl": "https://syntax-layer.com/agent/blocks-manifest.json"
+    }
+  }
+}
