@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on My New Hugo Site</title>
-    <link>https://example.org/articles/</link>
-    <description>Recent content in Articles on My New Hugo Site</description>
+    <title>Articles on The Syntax Layer</title>
+    <link>https://syntax-layer.com/articles/</link>
+    <description>Recent content in Articles on The Syntax Layer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://syntax-layer.com/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Test Post</title>
-      <link>https://example.org/articles/test-post/</link>
-      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/articles/test-post/</guid>
-      <description>&lt;p&gt;This is a test post to verify the Hugo build pipeline works.&lt;/p&gt;&#xA;&lt;p&gt;If you can read this on syntax-layer.com, the architecture is functional.&lt;/p&gt;</description>
+      <title>The Inference Economy: Why Real-Time AI Access Becomes the New Competitive Moat</title>
+      <link>https://syntax-layer.com/articles/the-inference-economy/</link>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://syntax-layer.com/articles/the-inference-economy/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Where value shifts in AI infrastructure—and what it means for your competitive strategy&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;The most consequential number in AI infrastructure isn&amp;rsquo;t about model size or training compute. It&amp;rsquo;s 35 percent.&lt;/p&gt;&#xA;&lt;p&gt;That&amp;rsquo;s the compound annual growth rate McKinsey projects for AI inference workloads through 2030—when inference will consume more than 90 gigawatts of data center capacity and represent over half of all AI compute demand. Training workloads, by comparison, will grow at 22 percent CAGR. The infrastructure story is shifting from building bigger models to serving them faster.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
