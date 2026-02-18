@@ -6,8 +6,22 @@
     <description>Recent content in Articles on The Syntax Layer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://syntax-layer.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Boring Parts Problem: Why Manufacturing Leaders Can&#39;t Get Excited About What Actually Works</title>
+      <link>https://syntax-layer.com/articles/the-boring-parts-problem/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://syntax-layer.com/articles/the-boring-parts-problem/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a behavioral puzzle hiding in plain sight: manufacturing COOs are systematically investing in AI tools that look impressive while under-investing in the capabilities that determine whether those tools actually work. They know this. The data is clear. And yet the pattern persists.&lt;/p&gt;&#xA;&lt;p&gt;This isn&amp;rsquo;t about ignorance or incompetence. It&amp;rsquo;s about psychology—the cognitive and organizational forces that make certain investments irresistible and others invisible, regardless of what the evidence says about effectiveness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The 15 Millisecond Ceiling: Why Latency Sensitivity Will Shape AI Adoption Patterns</title>
+      <link>https://syntax-layer.com/articles/the-15-millisecond-ceiling/</link>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://syntax-layer.com/articles/the-15-millisecond-ceiling/</guid>
+      <description>&lt;p&gt;&lt;em&gt;The psychological threshold that infrastructure builders know—and product designers keep forgetting&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;We never decided to abandon slow websites. We just stopped visiting them.&lt;/p&gt;&#xA;&lt;p&gt;In 2006, Google engineers discovered something that changed how we build technology: for every 100 milliseconds of added latency, they lost 0.6 percent of searches. Amazon found that every 100-millisecond delay cost them 1 percent of sales. The pattern was consistent across studies: human patience for digital delay has a hard ceiling, and it&amp;rsquo;s measured in fractions of a second.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Inference Economy: Why Real-Time AI Access Becomes the New Competitive Moat</title>
       <link>https://syntax-layer.com/articles/the-inference-economy/</link>

@@ -97,6 +97,18 @@
       margin-right: 0.4rem;
       margin-top: 0.4rem;
     }
+    .tagline {
+      color: var(--muted);
+      font-style: italic;
+      font-size: 1.1rem;
+      margin-bottom: 2.5rem;
+    }
+    .about-section, .how-section, .dual-section, .why-section, .colophon {
+      margin: 1rem 0;
+    }
+    .about-section h2, .how-section h2, .dual-section h2, .why-section h2, .colophon h2 {
+      margin-top: 1.5rem;
+    }
   </style>
 </head>
 <body>
@@ -106,12 +118,64 @@
   <main>
     
 <h1>The Syntax Layer</h1>
-<p style="color: var(--muted); margin-bottom: 2.5rem;">Strategic intelligence for the AI transformation</p>
+<p class="tagline">Strategic intelligence for the AI transformation</p>
+
+<div class="about-section">
+  <h2>An Experiment in Agentic Publishing</h2>
+  <p>The Syntax Layer is a working experiment: can an AI-augmented editorial workflow source, analyze, write, and publish knowledge that serves two audiences simultaneously &mdash; human readers and AI agents?</p>
+  <p>Every article on this site was produced through an agentic pipeline. Not &ldquo;AI-generated content&rdquo; in the way that phrase usually implies &mdash; not bulk text optimized for SEO, not generic summaries with the personality filed off. This is a structured editorial process where specialized AI agents handle distinct phases of knowledge work, with human judgment governing every transition between them.</p>
+</div>
+
+<hr>
+
+<div class="how-section">
+  <h2>How It Works</h2>
+  <p>The production workflow moves through six stages, each handled by a purpose-built agent role:</p>
+  <p><strong>Curation</strong> &mdash; scanning sources, filtering for relevance, identifying what deserves sustained attention rather than reflexive coverage.</p>
+  <p><strong>Analysis</strong> &mdash; applying analytical frameworks to surface the structural dynamics beneath surface events. What patterns are operating? What tensions are productive?</p>
+  <p><strong>Evaluation</strong> &mdash; assessing what a given angle enables and what it risks. Every piece gets evaluated not just for what it says, but for what it might foreclose.</p>
+  <p><strong>Creation</strong> &mdash; drafting in a distinct editorial voice calibrated to the analytical register the topic demands.</p>
+  <p><strong>Review</strong> &mdash; quality assessment against both intellectual rigor and readability. Does the piece earn its claims?</p>
+  <p><strong>Publication</strong> &mdash; generating dual-format output and deploying to this site.</p>
+  <p>Between every stage sits a human gate. The agents propose; a human editor decides what advances, what gets reworked, and what gets killed. The workflow augments editorial judgment rather than replacing it.</p>
+</div>
+
+<hr>
+
+<div class="dual-section">
+  <h2>Dual-Audience Architecture</h2>
+  <p>This is the part that makes The Syntax Layer more than a blog with extra steps.</p>
+  <p>Every published piece exists in two co-equal formats. The human layer &mdash; what you&rsquo;re reading now &mdash; is optimized for comprehension, voice, and the kind of rhetorical depth that rewards sustained attention. The agent layer is a parallel JSON-LD structure optimized for machine processing: explicit entity relationships, reasoning traces, structured metadata that AI systems can query, extract, and build on.</p>
+  <p>Neither layer is a translation of the other. Both are primary outputs of the same editorial act. A human reader and an AI agent consuming the same piece access genuinely different knowledge representations, each designed for how that audience actually processes information.</p>
+  <p>Each content block is SHA-256 hashed and chained to its predecessor, creating a verifiable record that any agent can independently confirm. An agent doesn&rsquo;t need to trust us &mdash; it can fetch a block, hash the content body using the declared specification, and verify integrity against the published manifest. Trust through cryptography, not reputation.</p>
+</div>
+
+<hr>
+
+<div class="why-section">
+  <h2>Why Build This Way</h2>
+  <p>The agent economy is being assembled right now. AI systems are beginning to coordinate, transact, and make decisions using knowledge they pull from the open web. But the infrastructure they depend on was built entirely for human consumption. There&rsquo;s no standard for structured, verifiable knowledge that agents can independently trust.</p>
+  <p>Meanwhile, most AI content tools optimize for volume &mdash; more output, faster, cheaper. The knowledge itself is treated as commodity.</p>
+  <p>We&rsquo;re testing a different proposition: that the hard problems in agentic publishing aren&rsquo;t generation (LLMs handle that) but curation, evaluation, and verification. That the editorial workflow &mdash; the sequence of judgments about what matters, what&rsquo;s rigorous, and what&rsquo;s worth someone&rsquo;s time &mdash; is where the actual value lives. And that building this workflow as a transparent, inspectable system produces better knowledge for both audiences.</p>
+  <p>This is an experiment, not a manifesto. We&rsquo;re building in public, documenting what works and what doesn&rsquo;t, and iterating based on what the process actually reveals rather than what the theory predicted.</p>
+</div>
+
+<hr>
 
 
 
 <h2>Articles</h2>
+<p style="color: var(--muted); margin-bottom: 1.5rem;">Covering the intersection of AI systems, organizational transformation, and the infrastructure decisions that will shape how agents and humans collaborate.</p>
 <ul class="article-list">
+  
+  <li>
+    <div class="article-title"><a href="https://syntax-layer.com/articles/the-boring-parts-problem/">The Boring Parts Problem: Why Manufacturing Leaders Can&#39;t Get Excited About What Actually Works</a></div>
+    <div class="article-date">January 10, 2026 · D2</div>
+    <div class="article-abstract">COOs systematically prioritize the &#39;visible&#39; AI investments—robots, automation, digital twins—while under-investing in workforce enablement, infrastructure, and cybersecurity that actually determine success. This isn&#39;t ignorance; it&#39;s psychology. The behavioral economics of organizational attention explains why 66% of manufacturers remain stuck in pilot purgatory.</div>
+    
+    <div><span class="tag">Adoption Dynamics</span><span class="tag">Organizational Psychology</span></div>
+    
+  </li>
   
   <li>
     <div class="article-title"><a href="https://syntax-layer.com/articles/the-inference-economy/">The Inference Economy: Why Real-Time AI Access Becomes the New Competitive Moat</a></div>
@@ -122,8 +186,25 @@
     
   </li>
   
+  <li>
+    <div class="article-title"><a href="https://syntax-layer.com/articles/the-15-millisecond-ceiling/">The 15 Millisecond Ceiling: Why Latency Sensitivity Will Shape AI Adoption Patterns</a></div>
+    <div class="article-date">January 8, 2026 · D2</div>
+    <div class="article-abstract">Inference workloads require sub-15 millisecond latency between adjacent regions. This technical constraint reveals a deeper behavioral truth: human tolerance for AI delay has a hard ceiling. The companies that win the Decision Surfaces battle will be those who understand that &#39;real-time&#39; isn&#39;t a technical specification—it&#39;s a psychological expectation.</div>
+    
+    <div><span class="tag">AI Adoption</span><span class="tag">Consumer Behavior</span></div>
+    
+  </li>
+  
 </ul>
 
+
+<hr>
+
+<div class="colophon">
+  <h2>The Stack</h2>
+  <p style="color: var(--muted); font-size: 0.9rem;">Hugo static site generation on a Hetzner VPS. GitHub deployment pipeline. Content blocks hashed and chained via the publish skill. Agent layer served as JSON-LD at discoverable endpoints. Knowledge graph tracking entities and relationships across the corpus. The whole thing is deliberately lightweight &mdash; verification infrastructure as enhancement to a static site, not a separate platform.</p>
+  <p style="color: var(--muted); font-size: 0.85rem; margin-top: 1rem;"><em>Built by Daniel Davenport. Executed through agentic workflow. Verified on-chain.</em></p>
+</div>
 
   </main>
   <footer>
