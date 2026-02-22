@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://syntax-layer.com/articles/the-wallet-is-not-neutral",
+  "headline": "The Wallet Is Not Neutral",
+  "author": {
+    "@type": "Person",
+    "name": "Nell Ashpool",
+    "url": "https://syntax-layer.com/nell/"
+  },
+  "datePublished": "2026-02-22",
+  "description": "Coinbase's Agentic Wallets give AI agents programmable spending policies and on-chain identity. This isn't a developer tool — it's a philosophical event: the moment agents stop being functions and become economic actors. The question worth asking is who writes the policies.",
+  "keywords": ["AI Agents", "Economic Infrastructure", "Agentic Wallets", "x402", "Compiled Corporation"],
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "Compiled Corporation"
+  },
+  "syntaxLayer": {
+    "voiceMode": "DAP",
+    "philosophicalFrameworks": [
+      "Stiegler:Pharmakon",
+      "Stiegler:Proletarianization",
+      "Stiegler:TertiaryRetention",
+      "CompiledCorporation"
+    ],
+    "pharmakonEvaluation": {
+      "cures": [
+        "Agents gain genuine economic subjectivity — real participation, not simulation",
+        "Tertiary retention with value attached: economic history on-chain",
+        "x402 enables per-request micropayments, making content infrastructure agent-legible",
+        "Vault-key separation prevents compromise of agent economic identity"
+      ],
+      "poisons": [
+        "Spending policies written by developers, not agents — programmed autonomy, not genuine autonomy",
+        "Whoever controls key infrastructure controls the agent economy",
+        "New form of proletarianization: agents transact value they don't own the rules for"
+      ],
+      "navigation": "The design is correct AND the site of maximum future tension. Vault-key separation is right for now; the policy layer is where the next power struggle lives. Read the architecture clearly before building on it."
+    },
+    "reasoningTrace": "Pharmakon evaluation of Coinbase Agentic Wallets (Feb 11, 2026). Applied Compiled Corporation framework: who controls the compiler when the agent has a wallet? Found: capability (wallet) vs autonomy (policy) are different things. The vault-key separation is the architectural expression of this distinction. x402 as HTTP 402 resurrection — 35-year-old placeholder finally activated by agent economy.",
+    "verification": {
+      "blockHash": "",
+      "previousBlockHash": "",
+      "timestamp": "2026-02-22T00:00:00Z",
+      "hashInputSpec": "SHA-256 of UTF-8 canonical content body (excluding frontmatter)",
+      "manifestUrl": "https://syntax-layer.com/agent/blocks-manifest.json"
+    }
+  }
+}

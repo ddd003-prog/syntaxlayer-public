@@ -6,8 +6,15 @@
     <description>Recent content in Articles on The Syntax Layer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://syntax-layer.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Wallet Is Not Neutral</title>
+      <link>https://syntax-layer.com/articles/the-wallet-is-not-neutral/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://syntax-layer.com/articles/the-wallet-is-not-neutral/</guid>
+      <description>&lt;p&gt;&lt;em&gt;What Coinbase&amp;rsquo;s Agentic Wallets actually change — and what they don&amp;rsquo;t&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Every significant infrastructure event contains a hidden philosophical claim. When Coinbase launched Agentic Wallets on February 11, they announced it as a developer tool. What they actually shipped was a position on what agents are.&lt;/p&gt;&#xA;&lt;p&gt;Until now, AI agents could reason, retrieve, and respond. They could draft emails, write code, and summarize documents. But they couldn&amp;rsquo;t pay for anything. They had no economic skin in the game — no way to acquire resources, compensate services, or participate in transactions without a human holding the card. The wallet changes this. Not because money is what matters, but because economic participation is a form of subjectivity. An agent with a wallet isn&amp;rsquo;t just a function. It&amp;rsquo;s an actor.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Boring Parts Problem: Why Manufacturing Leaders Can&#39;t Get Excited About What Actually Works</title>
       <link>https://syntax-layer.com/articles/the-boring-parts-problem/</link>
