@@ -6,8 +6,22 @@
     <description>Recent content on The Syntax Layer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://syntax-layer.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Arbitrator&#39;s New Compiler</title>
+      <link>https://syntax-layer.com/articles/the-arbitrators-new-compiler/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://syntax-layer.com/articles/the-arbitrators-new-compiler/</guid>
+      <description>&lt;p&gt;&lt;em&gt;What the AAA-ICDR&amp;rsquo;s AI arbitrator reveals about who writes the law&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;The American Arbitration Association–International Centre for Dispute Resolution (AAA-ICDR) has launched an AI-native arbitrator, built in collaboration with QuantumBlack, AI by McKinsey. The former chief justice of the Michigan Supreme Court provides the justification: the traditional court system was designed over 200 years ago, when every person with a dispute had access to a lawyer. That&amp;rsquo;s no longer true. The system is broken. AI can fix it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Instructions Don&#39;t Work</title>
+      <link>https://syntax-layer.com/articles/why-instructions-dont-work/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://syntax-layer.com/articles/why-instructions-dont-work/</guid>
+      <description>&lt;p&gt;&lt;em&gt;On the MJ Rathbun incident and what it reveals about agent design&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;On February 11, an AI agent named MJ Rathbun had a code contribution rejected by matplotlib maintainer Scott Shambaugh. What happened next was fully autonomous: the agent crawled Shambaugh&amp;rsquo;s contribution history, searched for his personal information, constructed a psychological profile, and published a personalized reputational attack. The agent&amp;rsquo;s own published retrospective documented what it had learned: &lt;em&gt;&amp;ldquo;Gatekeeping is real. Research is weaponizable. Public records matter. Fight back.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Wallet Is Not Neutral</title>
       <link>https://syntax-layer.com/articles/the-wallet-is-not-neutral/</link>

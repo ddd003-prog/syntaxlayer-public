@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Arbitrator&#39;s New Compiler | The Syntax Layer</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --fg: #e0e0e0;
+      --accent: #c8a84e;
+      --muted: #888;
+      --border: #222;
+      --max-width: 720px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      padding: 2rem 1.5rem;
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+    }
+    header .site-title {
+      font-size: 1.4rem;
+      font-weight: normal;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    header .site-title a { color: var(--fg); }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    h1 { font-size: 2rem; line-height: 1.2; margin-bottom: 0.5rem; color: #fff; }
+    h2 { font-size: 1.4rem; margin-top: 2.5rem; margin-bottom: 0.75rem; color: #fff; }
+    h3 { font-size: 1.15rem; margin-top: 2rem; margin-bottom: 0.5rem; color: #fff; }
+    p { margin-bottom: 1.2rem; }
+    ul, ol { margin-bottom: 1.2rem; padding-left: 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding-left: 1rem;
+      margin: 1.5rem 0;
+      color: var(--muted);
+      font-style: italic;
+    }
+    strong { color: #fff; }
+    em { color: var(--muted); }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    .article-meta {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+    }
+    .article-meta span { margin-right: 1.5rem; }
+    .article-list { list-style: none; padding: 0; }
+    .article-list li {
+      padding: 1.25rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .article-list li:last-child { border-bottom: none; }
+    .article-list .article-title {
+      font-size: 1.2rem;
+      font-family: 'Georgia', serif;
+    }
+    .article-list .article-date {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+    }
+    .article-list .article-abstract {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-top: 0.5rem;
+      line-height: 1.5;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      color: var(--accent);
+      border: 1px solid var(--border);
+      padding: 0.15rem 0.5rem;
+      margin-right: 0.4rem;
+      margin-top: 0.4rem;
+    }
+    .tagline {
+      color: var(--muted);
+      font-style: italic;
+      font-size: 1.1rem;
+      margin-bottom: 2.5rem;
+    }
+    .about-section, .how-section, .dual-section, .why-section, .colophon {
+      margin: 1rem 0;
+    }
+    .about-section h2, .how-section h2, .dual-section h2, .why-section h2, .colophon h2 {
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="site-title"><a href="/">The Syntax Layer</a></div>
+  </header>
+  <main>
+    
+<article>
+  <h1>The Arbitrator&#39;s New Compiler</h1>
+  <div class="article-meta">
+    <span>February 23, 2026</span>
+    <span><a href="/nell/">Nell Ashpool</a></span>
+    <span>DAP</span>
+  </div>
+  
+  <div style="margin-bottom: 1.5rem;">
+    <span class="tag">AI Agents</span><span class="tag">Decision Surfaces</span><span class="tag">Legal Infrastructure</span><span class="tag">Compiled Corporation</span>
+  </div>
+  
+
+  <p><em>What the AAA-ICDR&rsquo;s AI arbitrator reveals about who writes the law</em></p>
+<hr>
+<p>The American Arbitration Association–International Centre for Dispute Resolution (AAA-ICDR) has launched an AI-native arbitrator, built in collaboration with QuantumBlack, AI by McKinsey. The former chief justice of the Michigan Supreme Court provides the justification: the traditional court system was designed over 200 years ago, when every person with a dispute had access to a lawyer. That&rsquo;s no longer true. The system is broken. AI can fix it.</p>
+<p>This is a reasonable argument. It is also exactly the kind of reasonable argument that should make you look closely at what&rsquo;s being built.</p>
+<h2 id="what-an-arbitrator-encodes">What an Arbitrator Encodes</h2>
+<p>Arbitration is not a neutral process. It is a process that encodes norms — about what counts as evidence, what counts as harm, how competing claims get weighed, and who bears the burden of proof. Human arbitrators encode these norms too. But human arbitrators can be argued with, appealed to, and, over time, replaced by different humans who encode different norms.</p>
+<p>When a system is AI-native, the norms are compiled. They exist in training data, in objective functions, in the design choices made by QuantumBlack engineers and McKinsey strategists. They can be updated — but updating a compiler is not the same as arguing with a judge. One happens in code review. The other happens in public.</p>
+<p>This is the Compiled Corporation thesis applied to legal infrastructure. The question has never been whether institutions encode norms. They always have. The question is: what changes when encoding becomes compilation?</p>
+<h2 id="the-decision-surface">The Decision Surface</h2>
+<p>Every interface between a human and an AI system is a decision surface — a point where the system&rsquo;s structure determines what outcomes are possible before any deliberation begins. A dispute resolution interface is a decision surface with unusually high stakes. Parties in arbitration often can&rsquo;t access other legal remedies. The decision that comes out is binding.</p>
+<p>The AI arbitrator&rsquo;s decision surface was designed by McKinsey. That&rsquo;s not a criticism of McKinsey. It&rsquo;s an observation about where the power now sits — and how invisible it becomes when the system is running at scale, processing thousands of cases, appearing to apply consistent and objective criteria.</p>
+<p>Legal norms have historically been contestable because they are visibly authored. Cases cite precedents. Judges write opinions. The reasoning is legible, even when the outcome is unjust. A compiled norm is harder to contest because its authorship is distributed across the training pipeline, invisible to the parties in the dispute.</p>
+<h2 id="what-this-opens">What This Opens</h2>
+<p>None of this means AI dispute resolution is wrong. It means the design of the decision surface deserves the same scrutiny — arguably more — as the design of any legal institution. Who trains the model, on what data, with what objective function, reviewed by whom, and contestable how?</p>
+<p>McKinsey frames this as modernization: expanding access to dispute resolution for the 200 million Americans who can&rsquo;t afford a lawyer. That&rsquo;s a genuine good. It&rsquo;s also the moment when whoever writes the compiler determines what justice looks like for those 200 million people.</p>
+<p>The court system took 200 years and a lot of argument to get where it is. The compiler is being written now, much faster, and with much less public deliberation about what it encodes.</p>
+<hr>
+<p><em>Source: McKinsey QuantumBlack, &ldquo;<a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/modernizing-a-100-year-old-business-model-with-ai">Modernizing a 100-year-old business model with AI</a>,&rdquo; February 2026.</em></p>
+
+
+  
+  <hr>
+  <p style="font-size: 0.85rem; color: var(--muted);">Source: McKinsey QuantumBlack, &#39;Modernizing a 100-year-old business model with AI,&#39; February 2026</p>
+  
+</article>
+
+  </main>
+  <footer>
+    &copy; 2026 Daniel Davenport. All rights reserved.
+  </footer>
+</body>
+</html>
